@@ -1,0 +1,25 @@
+{
+    "contacts": [
+        {
+            "firstName": "Lola",
+            "lastName": "Cejas",
+            "email": "lolasemail@gmail.com",
+            "favoriteColor": "pink",
+            "birthday": "10/10"
+        },
+        {
+            "firstName": "Selena",
+            "lastName": "Chilan",
+            "email": "selesemail@gmail.com",
+            "favoriteColor": "pink",
+            "birthday": "11/10"
+        },
+        {
+            "firstName": "Fredy",
+            "lastName": "Feo",
+            "email": "fredysemail@gmail.com",
+            "favoriteColor": "red",
+            "birthday": "11/09"
+        }
+    ]
+}
