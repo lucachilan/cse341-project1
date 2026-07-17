@@ -1,0 +1,41 @@
+### getAll
+GET http://localhost:3000/contacts
+
+
+### getOne
+GET http://localhost:3000/contacts/6a5013b7f3d772c179f43b39
+
+### create one
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Luca",
+    "lastName": "Chilan",
+    "email": "lucasemail@gmail.com",
+    "favoriteColor": "green",
+    "birthday": "12/06"
+}
+
+### update one
+PUT http://localhost:3000/contacts/6a475e325df3a0fcadcb154f HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Selena",
+    "lastName": "Chilan",
+    "email": "selesemailupdated@gmail.com",
+    "favoriteColor": "pink",
+    "birthday": "11/10"
+}
+
+###
+DELETE http://localhost:3000/contacts/6a475e565df3a0fcadcb1550 
+
+### Prueba de diagnóstico
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Luca"
+}
